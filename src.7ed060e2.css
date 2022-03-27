@@ -22,6 +22,17 @@
   margin: 10px;
 }
 
+.update-time {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+}
+
 button {
   outline: none;
   user-select: none;
@@ -33,6 +44,19 @@ button {
   color: white;
   border-radius: 8px;
   padding: 6px;
+}
+
+button:hover {
+  background-color: rgb(88, 175, 218);
+  transition: background-color 500ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 768px) {
